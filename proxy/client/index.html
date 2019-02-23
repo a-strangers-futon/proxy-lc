@@ -1,21 +1,17 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Proxy Futon</title>
+  <link rel="stylesheet" href="http://ec2-13-56-13-87.us-west-1.compute.amazonaws.com/style.css">
+  <link rel="stylesheet" href="http://ec2-3-87-57-254.compute-1.amazonaws.com/style.css">
+  <link rel="stylesheet" href="http://ec2-18-216-223-244.us-east-2.compute.amazonaws.com/style.css">
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
-
-  <link rel="stylesheet" href="http://ec2-13-56-13-87.us-west-1.compute.amazonaws.com//style.css">
-  <link rel="stylesheet" href="http://ec2-3-87-57-254.compute-1.amazonaws.com//style.css">
-  <link rel="stylesheet" href="http://ec2-18-216-223-244.us-east-2.compute.amazonaws.com//style.css">
-
 </head>
-
-
 <body>
-
   <style>
   .allContainer {
     display: flex;
@@ -26,32 +22,47 @@
     min-height: 400px;
   }
 
+  .screenshot {
+    padding-left: 10%;
+    width: 90%;
+  }
+
+  .app3 {
+    padding-bottom: 30px;
+  }
+
   .allSidebar {
     min-height: 400px;
     width: 40%;
     margin-right: 0;
     margin-left: auto;
   }  
+
+  .bottom-screenshot {
+    padding-left: 6%;
+    width: 90%;
+  }
   </style>
   <div id="app1"></div>
   <div class="allContainer">
     <div class="allMain">
+      <img class="screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+1.png">
+      <img class="screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+2.png">
       <div id="app2" style="height: 350px"></div>
-      <div id="app3"></div>
+      <div class="app3" id="app3"></div>
+      <img class="screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+3.png">
+      <img class="screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+4.png">
+      <img class="screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+5.png">
     </div>
     <div class="allSidebar"> 
     </div>
   </div>
-
-
-<script src="http://ec2-13-56-13-87.us-west-1.compute.amazonaws.com//dist/bundle.js"></script>
-<script src="http://ec2-3-87-57-254.compute-1.amazonaws.com//dist/bundle.js"></script>
-<script src="http://ec2-18-216-223-244.us-east-2.compute.amazonaws.com//dist/bundle.js"></script>
-
+  <div>
+    <img class="bottom-screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+6.png">
+    <img class="bottom-screenshot" src="https://s3-us-west-1.amazonaws.com/fec-futon/Screen+Shot+7.png">
+  </div>
+  <script src="http://ec2-18-216-223-244.us-east-2.compute.amazonaws.com/dist/bundle.js"></script>
+  <script src="http://ec2-3-87-57-254.compute-1.amazonaws.com/dist/bundle.js"></script>
+  <script src="http://ec2-13-56-13-87.us-west-1.compute.amazonaws.com/dist/bundle.js"></script>
 </body>
-
-
-
-
-
 </html>
